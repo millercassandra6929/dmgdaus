@@ -1,0 +1,841 @@
+{
+  "meta": {
+    "title": "【HTTPS】一个“S“背后的战争：五轮迭代还原 HTTPS 设计全貌",
+    "author": "魾乨鐅",
+    "time": "2026年08月24日05时23分03秒",
+    "version": "2.0"
+  },
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListOrder": "https://schema.org/ItemListOrderUnordered",
+  "name": "日本大使被叫去挨骂",
+  "description": "封总，太太想跟你离婚很久了",
+  "about": {
+    "@type": "Thing",
+    "name": "www.blog.pznag.cn"
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "name": "我真不是为了那饭菜，才替他们倒酒满上",
+    "description": "内容页的详细描述，可包含www.blog.pznag.cn的相关信息。",
+    "author": {
+      "@type": "Person",
+      "name": "酠笅缮"
+    },
+    "datePublished": "2026年08月24日05时23分03秒",
+    "dateModified": "2026年08月24日05时23分03秒",
+    "inLanguage": "zh-CN",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "雨季的大理，没有风花雪月，却依旧惊艳了时光",
+      "url": "http://www.blog.pznag.cn/Article/details/697176.sHtML"
+    }
+  },
+  "share_links": [
+    {
+      "platform": "智谱发布 GLM-5.3，编程能力更强；传苹果训练国内专用 AI 模型；微信：朋友圈现在、过去、未来都不会有二次编辑功能 | 极客早知道",
+      "share_url": "http://www.blog.pznag.cn/Article/details/343449.sHtML"
+    },
+{
+      "platform": "DeepSeek据称重启第二轮融资 投前估值5000亿元",
+      "share_url": "http://www.blog.pznag.cn/Article/details/361440.sHtML"
+    },
+{
+      "platform": "“男孩女孩我都喜欢”，但事实上，新生男孩越来越多",
+      "share_url": "http://www.blog.pznag.cn/Article/details/506424.sHtML"
+    },
+{
+      "platform": "光迅科技 2026 年半年度归母净利润 5.82 亿元，同比增长 56.34%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/553732.sHtML"
+    },
+{
+      "platform": "弟弟称哥哥刚确诊癌症嫂子就提离婚",
+      "share_url": "http://www.blog.pznag.cn/Article/details/984959.sHtML"
+    },
+{
+      "platform": "8K实拍朱雀三号可回收火箭",
+      "share_url": "http://www.blog.pznag.cn/Article/details/596717.sHtML"
+    },
+{
+      "platform": "新一代智能手表颜智实力派，华为WATCH GT 7系列正式发布",
+      "share_url": "http://www.blog.pznag.cn/Article/details/342120.sHtML"
+    },
+{
+      "platform": "预售价25.98万元，黄金大五座科技旗舰小鹏G9L重磅亮相",
+      "share_url": "http://www.blog.pznag.cn/Article/details/046021.sHtML"
+    },
+{
+      "platform": "DeepSeek Harness 发布后，我没急着跑 Demo，先把 '.agents/' 翻了一遍",
+      "share_url": "http://www.blog.pznag.cn/Article/details/524770.sHtML"
+    },
+    {
+      "platform": "当表情包有了战力图",
+      "share_url": "http://www.blog.pznag.cn/Article/details/355452.sHtML"
+    },
+{
+      "platform": "小鹏G9L双工况场景极限 续航挑战！城区达成率：122.5%/高速达成率：85.3%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/789531.sHtML"
+    },
+{
+      "platform": "赵勇能把中国女排带多远（三）",
+      "share_url": "http://www.blog.pznag.cn/Article/details/763840.sHtML"
+    },
+{
+      "platform": "领航出海·连接全球：2026 ChinaJoy BTOB 馆盛况空前",
+      "share_url": "http://www.blog.pznag.cn/Article/details/883254.sHtML"
+    },
+{
+      "platform": "肖战感觉把这片天空都已经染红了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/871889.sHtML"
+    },
+{
+      "platform": "媒体：天津还能重回巅峰吗",
+      "share_url": "http://www.blog.pznag.cn/Article/details/817905.sHtML"
+    },
+{
+      "platform": "韩国足协曾“不当招待”赴韩进行裁判交流的3名中国足协工作人员？中国足协回应",
+      "share_url": "http://www.blog.pznag.cn/Article/details/981448.sHtML"
+    },
+{
+      "platform": "日本民众排队5小时买中国相机",
+      "share_url": "http://www.blog.pznag.cn/Article/details/326788.sHtML"
+    },
+{
+      "platform": "辣眼睛！三伏天公园又现“赤裸晒背”，有人说这是“个人自由”，有人觉得“不雅观”，医生提醒：这类人群坚决不能晒",
+      "share_url": "http://www.blog.pznag.cn/Article/details/881699.sHtML"
+    },
+{
+      "platform": "重大跨境赌博犯罪集团骨干落网",
+      "share_url": "http://www.blog.pznag.cn/Article/details/419886.sHtML"
+    },
+    {
+      "platform": "中学教师招聘笔试前13名被淘汰后5名进体检 官方通报",
+      "share_url": "http://www.blog.pznag.cn/Article/details/420768.sHtML"
+    },
+{
+      "platform": "快手：累计处置违规动画内容3万余条",
+      "share_url": "http://www.blog.pznag.cn/Article/details/890563.sHtML"
+    },
+{
+      "platform": "上海上半年金融数据出炉：跨境人民币业务继续保持全国第一",
+      "share_url": "http://www.blog.pznag.cn/Article/details/146935.sHtML"
+    },
+{
+      "platform": "真爱降临时，请为我响起Take my hand 【夏雅】",
+      "share_url": "http://www.blog.pznag.cn/Article/details/590151.sHtML"
+    },
+{
+      "platform": "“七年之痒”夫妻七夕复婚“打嘴仗”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/942753.sHtML"
+    },
+{
+      "platform": "生而全球，淬炼而归：风云T7正式开启预售，10.99万元起",
+      "share_url": "http://www.blog.pznag.cn/Article/details/203595.sHtML"
+    },
+{
+      "platform": "明年，很多企业就只招AI人才了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/674665.sHtML"
+    },
+{
+      "platform": "拥有高斯的智商和直接拥有现金一个亿rmb，到底选哪个才是好的？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/809287.sHtML"
+    },
+{
+      "platform": "字节面试官皱眉了："你的 Agent 为啥用 Code RAG 而不用 grep？Claude Code 都实践出来 grep 效果好，难道你们另有其他考虑？"",
+      "share_url": "http://www.blog.pznag.cn/Article/details/679255.sHtML"
+    },
+{
+      "platform": "体育生最爱！上海168元铜锅涮肉自助，到底能不能回本？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/714269.sHtML"
+    },
+    {
+      "platform": "粉笔炒股巨额亏损超5638万元，与前CEO张小龙“拿8000万元现金炒股单月赚5300万元”炒股炫富言论形成鲜明反差",
+      "share_url": "http://www.blog.pznag.cn/Article/details/801828.sHtML"
+    },
+{
+      "platform": "家长被索要清洁费未果遭尾随",
+      "share_url": "http://www.blog.pznag.cn/Article/details/919188.sHtML"
+    },
+{
+      "platform": "韩国外长谈特朗普突然施压的两大目的",
+      "share_url": "http://www.blog.pznag.cn/Article/details/032336.sHtML"
+    },
+{
+      "platform": "1969年、美国演员马修·派瑞出生",
+      "share_url": "http://www.blog.pznag.cn/Article/details/277224.sHtML"
+    },
+{
+      "platform": "Flutter 3.47 与 Dart 3.13：你必须了解的迁移指南",
+      "share_url": "http://www.blog.pznag.cn/Article/details/205077.sHtML"
+    },
+{
+      "platform": "清华今年录取4000余名学生",
+      "share_url": "http://www.blog.pznag.cn/Article/details/938686.sHtML"
+    },
+{
+      "platform": "紫牛头条｜女孩下海遭海蜇蜇伤进ICU，母亲称5米外救生员迟迟未施救；景区工作人员：可能未做相关培训",
+      "share_url": "http://www.blog.pznag.cn/Article/details/333764.sHtML"
+    },
+{
+      "platform": "DeepSeek Harness 开源，下一代 Agent 基础设施长什么样？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/486517.sHtML"
+    },
+{
+      "platform": "患者就诊中昏迷 医生被索赔22万",
+      "share_url": "http://www.blog.pznag.cn/Article/details/010272.sHtML"
+    },
+{
+      "platform": "把发布会搬进年轻人的生活里！全球精品轿车零跑A05正式上市！",
+      "share_url": "http://www.blog.pznag.cn/Article/details/176654.sHtML"
+    },
+    {
+      "platform": "惠英红为拍戏拼到买不了保险",
+      "share_url": "http://www.blog.pznag.cn/Article/details/536166.sHtML"
+    },
+{
+      "platform": "突发，Fable 5.1泄露了！Claude又叒叕全球大宕机",
+      "share_url": "http://www.blog.pznag.cn/Article/details/815957.sHtML"
+    },
+{
+      "platform": "女子乘飞机后眼前现黑影",
+      "share_url": "http://www.blog.pznag.cn/Article/details/382477.sHtML"
+    },
+{
+      "platform": "买票占座放零食这座位能让吗",
+      "share_url": "http://www.blog.pznag.cn/Article/details/945651.sHtML"
+    },
+{
+      "platform": "8月19日下午国乒最新消息：2好1坏消息，王曼昱，陈幸同，王艺迪",
+      "share_url": "http://www.blog.pznag.cn/Article/details/643320.sHtML"
+    },
+{
+      "platform": "IT早报 0819：雷军官宣小米新一代玄戒芯片将至；魏建军称长城 36 年来没造过速成车；多人因编造 AI 车祸假视频被罚；入职奖 8800 元，富士康备战 iPhone 18...",
+      "share_url": "http://www.blog.pznag.cn/Article/details/114731.sHtML"
+    },
+{
+      "platform": "可自由切割合并的PDF尺寸调整打印工具",
+      "share_url": "http://www.blog.pznag.cn/Article/details/436551.sHtML"
+    },
+{
+      "platform": "怎样理解“人心中的成见是一座大山”？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/605268.sHtML"
+    },
+{
+      "platform": "日拟研发潜射高超音速导弹",
+      "share_url": "http://www.blog.pznag.cn/Article/details/654590.sHtML"
+    },
+{
+      "platform": "TikTok带货博主卷疯快递：三天，从深圳到伦敦",
+      "share_url": "http://www.blog.pznag.cn/Article/details/412428.sHtML"
+    },
+    {
+      "platform": "孟子义没有给cp让路的义务",
+      "share_url": "http://www.blog.pznag.cn/Article/details/720097.sHtML"
+    },
+{
+      "platform": "官方通报笔试前13名淘汰倒数5名逆袭",
+      "share_url": "http://www.blog.pznag.cn/Article/details/594919.sHtML"
+    },
+{
+      "platform": "中联部邀日本议员访华？外交部回应",
+      "share_url": "http://www.blog.pznag.cn/Article/details/496017.sHtML"
+    },
+{
+      "platform": "硅谷掀起“晒表”潮：科技公司定制款帝舵腕表成职场身份新象征",
+      "share_url": "http://www.blog.pznag.cn/Article/details/526085.sHtML"
+    },
+{
+      "platform": "手写模拟器-文本/docx 一键变逼真手写图片，告别手抄(2026.08.12更新）",
+      "share_url": "http://www.blog.pznag.cn/Article/details/230402.sHtML"
+    },
+{
+      "platform": "罗马诺：皇马接近签下19岁中场塞尔吉奥-马丁内斯",
+      "share_url": "http://www.blog.pznag.cn/Article/details/437163.sHtML"
+    },
+{
+      "platform": "一审判决被推翻！禾赛科技告赢美国国防部",
+      "share_url": "http://www.blog.pznag.cn/Article/details/392912.sHtML"
+    },
+{
+      "platform": "A股全市场逾百股跌停",
+      "share_url": "http://www.blog.pznag.cn/Article/details/388179.sHtML"
+    },
+{
+      "platform": "飞牛NAS部署PandaWiki：搭建自托管AI知识库并实现远程访问",
+      "share_url": "http://www.blog.pznag.cn/Article/details/396779.sHtML"
+    },
+{
+      "platform": "企业 AI Agent 的真正门槛，不是模型能力，而是工作底座",
+      "share_url": "http://www.blog.pznag.cn/Article/details/292509.sHtML"
+    },
+    {
+      "platform": "这个39岁的日本阿姨，说话一套一套的！",
+      "share_url": "http://www.blog.pznag.cn/Article/details/319256.sHtML"
+    },
+{
+      "platform": "尾盘才把宇树科技清仓，操作太菜了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/437547.sHtML"
+    },
+{
+      "platform": "【短视频】七夕快乐呀呀",
+      "share_url": "http://www.blog.pznag.cn/Article/details/815129.sHtML"
+    },
+{
+      "platform": "杭州梭子蟹价格持续回落",
+      "share_url": "http://www.blog.pznag.cn/Article/details/416074.sHtML"
+    },
+{
+      "platform": "观点｜武磊球衣引发的不该是恐惧，热爱不应裹挟戾气",
+      "share_url": "http://www.blog.pznag.cn/Article/details/538485.sHtML"
+    },
+{
+      "platform": "上海2026社保基数下限调整为7546元/月，平均工资首次突破12500元大关，哪些信息值得关注？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/333203.sHtML"
+    },
+{
+      "platform": "微软产品改名有多频繁？2023 年改了 18 款，有粉丝专门为此建站追踪",
+      "share_url": "http://www.blog.pznag.cn/Article/details/436288.sHtML"
+    },
+{
+      "platform": "黄山一猴子误触高压电身亡",
+      "share_url": "http://www.blog.pznag.cn/Article/details/355918.sHtML"
+    },
+{
+      "platform": "年会不能停2延长上映",
+      "share_url": "http://www.blog.pznag.cn/Article/details/182539.sHtML"
+    },
+{
+      "platform": "分布式GPU智能算法深度研究2026年版（下）",
+      "share_url": "http://www.blog.pznag.cn/Article/details/195135.sHtML"
+    },
+    {
+      "platform": "广东一景区“水上飞人”教练溺水身亡",
+      "share_url": "http://www.blog.pznag.cn/Article/details/190852.sHtML"
+    },
+{
+      "platform": "日本外务省回应美国制裁赤根智子：深表遗憾",
+      "share_url": "http://www.blog.pznag.cn/Article/details/789101.sHtML"
+    },
+{
+      "platform": "科学家颜宁自评：我勉强算人才，王虹才是天才",
+      "share_url": "http://www.blog.pznag.cn/Article/details/618040.sHtML"
+    },
+{
+      "platform": "库珀无限接近与辽篮签约",
+      "share_url": "http://www.blog.pznag.cn/Article/details/306021.sHtML"
+    },
+{
+      "platform": "总台七夕晚会节目单",
+      "share_url": "http://www.blog.pznag.cn/Article/details/189336.sHtML"
+    },
+{
+      "platform": "女生第一次国外solotrip之土耳其旺季12天11晚记录（总花费9.7k）????",
+      "share_url": "http://www.blog.pznag.cn/Article/details/784514.sHtML"
+    },
+{
+      "platform": "女孩买空座放零食 大姐想坐遭拒",
+      "share_url": "http://www.blog.pznag.cn/Article/details/748720.sHtML"
+    },
+{
+      "platform": "剩菜剩饭喂猪违法是真的吗",
+      "share_url": "http://www.blog.pznag.cn/Article/details/571295.sHtML"
+    },
+{
+      "platform": "《庆余年》演员在山西一景区当NPC，身高2.16米，“我需要稳定收入养家，如今AI短剧普及，很多演员长期无戏可拍……”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/391366.sHtML"
+    },
+{
+      "platform": "七夕奇妙游把千年缫丝织成一支舞",
+      "share_url": "http://www.blog.pznag.cn/Article/details/453217.sHtML"
+    },
+    {
+      "platform": "两尊唐代石狮被人夜间盗走十余年 公安部门悬赏100万",
+      "share_url": "http://www.blog.pznag.cn/Article/details/025104.sHtML"
+    },
+{
+      "platform": "《功夫女足》票房23亿，算是周星驰的滑铁卢吗？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/128182.sHtML"
+    },
+{
+      "platform": "桃黑黑宣布暂时休息",
+      "share_url": "http://www.blog.pznag.cn/Article/details/917233.sHtML"
+    },
+{
+      "platform": "市场监管总局严打电子计价秤芯片植入、远程操控等作弊行为，全流程管控生产流通",
+      "share_url": "http://www.blog.pznag.cn/Article/details/084178.sHtML"
+    },
+{
+      "platform": "亿纬锂能 2026 年半年度归母净利润 33.01 亿元，同比增长 105.66%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/606345.sHtML"
+    },
+{
+      "platform": "AIOps 故障排障全流程：3 个生产案例排查耗时从 60 分钟降至 5 分钟",
+      "share_url": "http://www.blog.pznag.cn/Article/details/264176.sHtML"
+    },
+{
+      "platform": "鸿蒙智行发布关于近期“竹知了”相关网络信息的情况说明",
+      "share_url": "http://www.blog.pznag.cn/Article/details/895196.sHtML"
+    },
+{
+      "platform": "上海地铁预计平均每人次将贵1元左右",
+      "share_url": "http://www.blog.pznag.cn/Article/details/315483.sHtML"
+    },
+{
+      "platform": "媒体：请放过一个努力的蓝发女孩",
+      "share_url": "http://www.blog.pznag.cn/Article/details/038165.sHtML"
+    },
+{
+      "platform": "公积金新政来了，有哪些利好？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/719555.sHtML"
+    },
+    {
+      "platform": "正泰电器 2026 年半年度归母净利润 31.30 亿元，同比增长 22.23%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/869745.sHtML"
+    },
+{
+      "platform": "美军演习主力被乌军全歼",
+      "share_url": "http://www.blog.pznag.cn/Article/details/227384.sHtML"
+    },
+{
+      "platform": "存储“三国杀”变局：三星扩大领先 美光追近海力士",
+      "share_url": "http://www.blog.pznag.cn/Article/details/370978.sHtML"
+    },
+{
+      "platform": "京东 WRC 2026 发布机器人战略：到 2028 年投入百亿级资源，助力 100 个品牌销售额破 10 亿元",
+      "share_url": "http://www.blog.pznag.cn/Article/details/251500.sHtML"
+    },
+{
+      "platform": ""最支持犹太人定居点"的美国大使 称以定居者恐怖分子",
+      "share_url": "http://www.blog.pznag.cn/Article/details/059530.sHtML"
+    },
+{
+      "platform": "人形机器人精准接水",
+      "share_url": "http://www.blog.pznag.cn/Article/details/198896.sHtML"
+    },
+{
+      "platform": "为什么美银认为腾讯AI迎来“中途岛时刻”？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/846406.sHtML"
+    },
+{
+      "platform": "守岸人第57次取消发送～?",
+      "share_url": "http://www.blog.pznag.cn/Article/details/660289.sHtML"
+    },
+{
+      "platform": "全球市场大跳水 原因找到了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/514545.sHtML"
+    },
+{
+      "platform": "胖东来招聘排除性侵人员",
+      "share_url": "http://www.blog.pznag.cn/Article/details/769352.sHtML"
+    },
+    {
+      "platform": "老婆让我给她找健身搭子，手把手教学",
+      "share_url": "http://www.blog.pznag.cn/Article/details/653947.sHtML"
+    },
+{
+      "platform": "康佳集团原副总裁杨波被查",
+      "share_url": "http://www.blog.pznag.cn/Article/details/939895.sHtML"
+    },
+{
+      "platform": "交通运输部规划约6万公里“三环四横五纵”精品自驾旅游公路；商务部等推动新能源汽车、绿色智能家电下乡",
+      "share_url": "http://www.blog.pznag.cn/Article/details/567965.sHtML"
+    },
+{
+      "platform": "第七届中非媒体合作论坛明日开幕",
+      "share_url": "http://www.blog.pznag.cn/Article/details/985426.sHtML"
+    },
+{
+      "platform": "台军试射火箭偏轨自毁",
+      "share_url": "http://www.blog.pznag.cn/Article/details/787542.sHtML"
+    },
+{
+      "platform": "一点一滴刺痛我的心",
+      "share_url": "http://www.blog.pznag.cn/Article/details/945830.sHtML"
+    },
+{
+      "platform": "苏神百万年薪简历翻车：一个包装争议，给后端同学的 5 个工程视角警示",
+      "share_url": "http://www.blog.pznag.cn/Article/details/843264.sHtML"
+    },
+{
+      "platform": "暴雨后大爷拿鱼叉抓鱼叉中十斤大鱼",
+      "share_url": "http://www.blog.pznag.cn/Article/details/530026.sHtML"
+    },
+{
+      "platform": "狮驼岭3v3，为什么沙僧直接冲上去干最猛的大鹏？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/799811.sHtML"
+    },
+{
+      "platform": "全线杀跌，发生了什么？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/510285.sHtML"
+    },
+    {
+      "platform": "“价格屠夫”梁文锋“收刀”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/289904.sHtML"
+    },
+{
+      "platform": "现在KTV里还有这种表演？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/095341.sHtML"
+    },
+{
+      "platform": "龚俊在巴黎感受环法",
+      "share_url": "http://www.blog.pznag.cn/Article/details/884574.sHtML"
+    },
+{
+      "platform": "为什么大家看《甄嬛传》时总跳过凌云峰谈恋爱？这背后其实反映了这种心理",
+      "share_url": "http://www.blog.pznag.cn/Article/details/193765.sHtML"
+    },
+{
+      "platform": "七夕整点三角洲专属浪漫",
+      "share_url": "http://www.blog.pznag.cn/Article/details/098430.sHtML"
+    },
+{
+      "platform": "追求源于热爱创业首秀：万志强发布PANDAER新品及DreamGoGo众筹平台",
+      "share_url": "http://www.blog.pznag.cn/Article/details/027898.sHtML"
+    },
+{
+      "platform": "收费近28年，华快一期将免费，我国首批高快速迎到期免费潮",
+      "share_url": "http://www.blog.pznag.cn/Article/details/933756.sHtML"
+    },
+{
+      "platform": "《动物：卑鄙的直立猿》",
+      "share_url": "http://www.blog.pznag.cn/Article/details/294500.sHtML"
+    },
+{
+      "platform": "Magic Resume 实战：开源 AI 简历编辑器（多模型 + 本地存储）",
+      "share_url": "http://www.blog.pznag.cn/Article/details/784715.sHtML"
+    },
+{
+      "platform": "《异环》全球流水破 20 亿元：完美世界 2026 上半年由盈转亏 1.18 亿元，多款在研项目储备中",
+      "share_url": "http://www.blog.pznag.cn/Article/details/874754.sHtML"
+    },
+    {
+      "platform": "央视曝光：情侣网购上千个订单，收货地址为全国各地酒店前台",
+      "share_url": "http://www.blog.pznag.cn/Article/details/286518.sHtML"
+    },
+{
+      "platform": "迷你世界致00后的一封信",
+      "share_url": "http://www.blog.pznag.cn/Article/details/623908.sHtML"
+    },
+{
+      "platform": "广大医务人员是最美的天使",
+      "share_url": "http://www.blog.pznag.cn/Article/details/285526.sHtML"
+    },
+{
+      "platform": "像一阵细雨洒落我心底",
+      "share_url": "http://www.blog.pznag.cn/Article/details/396816.sHtML"
+    },
+{
+      "platform": "张恒远因黑色素瘤病逝",
+      "share_url": "http://www.blog.pznag.cn/Article/details/952922.sHtML"
+    },
+{
+      "platform": "紫牛头条｜江苏3岁罕见病女童完成冷冻卵巢手术，妈妈：希望给女儿未来选择的权利",
+      "share_url": "http://www.blog.pznag.cn/Article/details/609723.sHtML"
+    },
+{
+      "platform": "公安部门悬赏100万寻找石狮子",
+      "share_url": "http://www.blog.pznag.cn/Article/details/883270.sHtML"
+    },
+{
+      "platform": "多省份调整最低工资标准，不少人工资却不升反降，网友：国有国法，厂有厂规",
+      "share_url": "http://www.blog.pznag.cn/Article/details/427560.sHtML"
+    },
+{
+      "platform": "全球市场大跳水原因",
+      "share_url": "http://www.blog.pznag.cn/Article/details/759299.sHtML"
+    },
+{
+      "platform": "95后新郎把婚前房子财产全给了新娘",
+      "share_url": "http://www.blog.pznag.cn/Article/details/529604.sHtML"
+    },
+    {
+      "platform": "李施嬅说朱一龙又一个影帝来了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/983834.sHtML"
+    },
+{
+      "platform": "GitHub Actions 玩法大赏：一台远程主机的七种活法",
+      "share_url": "http://www.blog.pznag.cn/Article/details/344480.sHtML"
+    },
+{
+      "platform": "跟着合唱派对七夕浪漫开唱",
+      "share_url": "http://www.blog.pznag.cn/Article/details/693932.sHtML"
+    },
+{
+      "platform": "2027 款广汽丰田凯美瑞上市：智能座舱大升级、小米生态接口，权益价 13.18 万起",
+      "share_url": "http://www.blog.pznag.cn/Article/details/185738.sHtML"
+    },
+{
+      "platform": "李钧，辞去陕西省副省长职务",
+      "share_url": "http://www.blog.pznag.cn/Article/details/957571.sHtML"
+    },
+{
+      "platform": "“王的猜想”密码：累了就休息，不累就学一些",
+      "share_url": "http://www.blog.pznag.cn/Article/details/220416.sHtML"
+    },
+{
+      "platform": "公积金新政来了 有哪些利好",
+      "share_url": "http://www.blog.pznag.cn/Article/details/224667.sHtML"
+    },
+{
+      "platform": "玉雕江湖里的“大师生意”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/699263.sHtML"
+    },
+{
+      "platform": "马上评丨张兰终审败诉，重申“公众人物容忍义务”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/954734.sHtML"
+    },
+{
+      "platform": "广西一村庄为11名准大学生办升学礼",
+      "share_url": "http://www.blog.pznag.cn/Article/details/536100.sHtML"
+    },
+    {
+      "platform": "在花大钱之前，先花一笔小钱验证你的决策",
+      "share_url": "http://www.blog.pznag.cn/Article/details/270738.sHtML"
+    },
+{
+      "platform": "杭州通报“酒局猥亵案”：企业高管与公职人员被刑拘免职；多地婚姻登记处七夕不打烊；暑期档票房破100亿",
+      "share_url": "http://www.blog.pznag.cn/Article/details/900261.sHtML"
+    },
+{
+      "platform": "醉酒男持刀伤人，外卖小哥果断出手！",
+      "share_url": "http://www.blog.pznag.cn/Article/details/771019.sHtML"
+    },
+{
+      "platform": "广西一女尼姑从18岁开始闭关，住悬崖山洞15年，养大了3个孩子",
+      "share_url": "http://www.blog.pznag.cn/Article/details/208012.sHtML"
+    },
+{
+      "platform": "华东首个，京东物流长三角至京津冀电商多式联运快速班列成功开行",
+      "share_url": "http://www.blog.pznag.cn/Article/details/648445.sHtML"
+    },
+{
+      "platform": "未来10天将生成两个台风",
+      "share_url": "http://www.blog.pznag.cn/Article/details/461334.sHtML"
+    },
+{
+      "platform": "宇树目前888，下午怎么看兄弟们？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/034851.sHtML"
+    },
+{
+      "platform": "“不装”消费，当这届消费者开始卸下社交滤镜",
+      "share_url": "http://www.blog.pznag.cn/Article/details/334535.sHtML"
+    },
+{
+      "platform": "黑鲸鱼 DeepSeek Harness，从「赛博乐高」变成 Agent Store",
+      "share_url": "http://www.blog.pznag.cn/Article/details/520411.sHtML"
+    },
+{
+      "platform": "视频丨我国首次！重复使用火箭陆地回收成功",
+      "share_url": "http://www.blog.pznag.cn/Article/details/225375.sHtML"
+    },
+    {
+      "platform": "穆西亚拉连场热身赛晕倒",
+      "share_url": "http://www.blog.pznag.cn/Article/details/789252.sHtML"
+    },
+{
+      "platform": "降至2.7%！银行房贷利率再现低位",
+      "share_url": "http://www.blog.pznag.cn/Article/details/797183.sHtML"
+    },
+{
+      "platform": "50岁果农到澳大利亚教人种葡萄 雇主为其提供别墅汽车",
+      "share_url": "http://www.blog.pznag.cn/Article/details/722951.sHtML"
+    },
+{
+      "platform": "80后集体“盼退休”：不是懒了，是心里那根弦快断了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/811301.sHtML"
+    },
+{
+      "platform": "第十八个全民健身日，OPPO宣布将推出FatMax 超燃脂模式，助力全民运动健康",
+      "share_url": "http://www.blog.pznag.cn/Article/details/209291.sHtML"
+    },
+{
+      "platform": "情侣领证男生把婚前财产都给女生",
+      "share_url": "http://www.blog.pznag.cn/Article/details/120547.sHtML"
+    },
+{
+      "platform": "杭州男子被蝉鸣吵成耳聋，怪不得皇上总是要苏培盛粘蝉呢",
+      "share_url": "http://www.blog.pznag.cn/Article/details/502297.sHtML"
+    },
+{
+      "platform": "假冒“港中大客座教授”“西部新闻网总编”，张龙50多个头衔从何而来",
+      "share_url": "http://www.blog.pznag.cn/Article/details/730103.sHtML"
+    },
+{
+      "platform": "你能接受视频“暂停广告”吗？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/803033.sHtML"
+    },
+{
+      "platform": "陕西千阳回应“聘任假总编张龙并为其背书”：我们也被骗了",
+      "share_url": "http://www.blog.pznag.cn/Article/details/039082.sHtML"
+    },
+    {
+      "platform": "多国减持 美债抛售潮加剧",
+      "share_url": "http://www.blog.pznag.cn/Article/details/184299.sHtML"
+    },
+{
+      "platform": "微博 2026 财年上半年归母净利润 1.02 亿美元，同比下降 56.12%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/586572.sHtML"
+    },
+{
+      "platform": "Node.js 26.7.0 更新！测试、性能分析、FFI 全面补强",
+      "share_url": "http://www.blog.pznag.cn/Article/details/355166.sHtML"
+    },
+{
+      "platform": "DeepSeek Harness v0.1 四天 14 万星，对照 Claude Code 和 Codex 讲清三种 harness 设计原则",
+      "share_url": "http://www.blog.pznag.cn/Article/details/586586.sHtML"
+    },
+{
+      "platform": "【机器学习】损失函数全解_从MSE到交叉熵",
+      "share_url": "http://www.blog.pznag.cn/Article/details/305358.sHtML"
+    },
+{
+      "platform": "空枪檀健次模仿广西普通话",
+      "share_url": "http://www.blog.pznag.cn/Article/details/808715.sHtML"
+    },
+{
+      "platform": "OpenAI公开四加十条保命指南，专防AI自动化攻击",
+      "share_url": "http://www.blog.pznag.cn/Article/details/232205.sHtML"
+    },
+{
+      "platform": "山姆苹果干一包就是半个苹果",
+      "share_url": "http://www.blog.pznag.cn/Article/details/670150.sHtML"
+    },
+{
+      "platform": "PopTrans-v1.0.0开源离线截屏翻译软件",
+      "share_url": "http://www.blog.pznag.cn/Article/details/365392.sHtML"
+    },
+{
+      "platform": "涉嫌违法违规生产经营！国家烟草专卖局约谈电子烟龙头爱奇迹",
+      "share_url": "http://www.blog.pznag.cn/Article/details/884118.sHtML"
+    },
+    {
+      "platform": "女生墨尔本街头翻唱遇袁娅维加入",
+      "share_url": "http://www.blog.pznag.cn/Article/details/097539.sHtML"
+    },
+{
+      "platform": "哔哩哔哩等其他视频简易下载器",
+      "share_url": "http://www.blog.pznag.cn/Article/details/991444.sHtML"
+    },
+{
+      "platform": "干娘带你看七夕线下脱单盛况",
+      "share_url": "http://www.blog.pznag.cn/Article/details/080783.sHtML"
+    },
+{
+      "platform": "如何评价《一人之下》第773(827）话预告？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/180098.sHtML"
+    },
+{
+      "platform": "C盘清理工具 - C盘清道夫",
+      "share_url": "http://www.blog.pznag.cn/Article/details/090514.sHtML"
+    },
+{
+      "platform": "葛卫东朋友圈“喊话”坚定看多AI：我是相信没结束的",
+      "share_url": "http://www.blog.pznag.cn/Article/details/873387.sHtML"
+    },
+{
+      "platform": "金莎再唱《星月神话》",
+      "share_url": "http://www.blog.pznag.cn/Article/details/995065.sHtML"
+    },
+{
+      "platform": "为什么会有人认为苏联是邪恶的？苏联帮助我们156项工业基础",
+      "share_url": "http://www.blog.pznag.cn/Article/details/867630.sHtML"
+    },
+{
+      "platform": "面试官说"打开你的AI工具"——我才发现，他考的根本不是写代码",
+      "share_url": "http://www.blog.pznag.cn/Article/details/323517.sHtML"
+    },
+{
+      "platform": "中国西电 2026 年半年度归母净利润 6.88 亿元，同比增长 15.03%",
+      "share_url": "http://www.blog.pznag.cn/Article/details/005437.sHtML"
+    },
+    {
+      "platform": "宝石老舅祝你七夕快乐",
+      "share_url": "http://www.blog.pznag.cn/Article/details/241096.sHtML"
+    },
+{
+      "platform": "超详细白帽黑客学习路线",
+      "share_url": "http://www.blog.pznag.cn/Article/details/743991.sHtML"
+    },
+{
+      "platform": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
+      "share_url": "http://www.blog.pznag.cn/Article/details/038303.sHtML"
+    },
+{
+      "platform": "原价898元西瓜售出77单，平台回应“营养高10倍”：将提交质检部门调查",
+      "share_url": "http://www.blog.pznag.cn/Article/details/364591.sHtML"
+    },
+{
+      "platform": "多标签资源管理器 Clover V3.5.6 去广告绿色美化版 火绒不报毒",
+      "share_url": "http://www.blog.pznag.cn/Article/details/754117.sHtML"
+    },
+{
+      "platform": "申通老板娘前夫撤诉，2.8亿元离婚“旧账”画上句号！",
+      "share_url": "http://www.blog.pznag.cn/Article/details/796198.sHtML"
+    },
+{
+      "platform": "胖东来澄清“无门槛招聘刑满释放人员”：排除性侵等恶性犯罪前科人员",
+      "share_url": "http://www.blog.pznag.cn/Article/details/781547.sHtML"
+    },
+{
+      "platform": "龙餐馆演员讲述亲历的伊拉克战争",
+      "share_url": "http://www.blog.pznag.cn/Article/details/205147.sHtML"
+    },
+{
+      "platform": "FREELANDER神行者8开启预售，大六座版预售价34.99万元起、大五座版预",
+      "share_url": "http://www.blog.pznag.cn/Article/details/196140.sHtML"
+    },
+{
+      "platform": "爆火 Vue3 手势库：轻松实现手势功能，兼容PC端、移动端",
+      "share_url": "http://www.blog.pznag.cn/Article/details/824531.sHtML"
+    },
+    {
+      "platform": "正当防卫！昆山龙哥后又一正道的光",
+      "share_url": "http://www.blog.pznag.cn/Article/details/251118.sHtML"
+    },
+{
+      "platform": "马斯克遭遇“黑色七月”，个人财富缩水约合人民币2.45万亿元，相当于亏掉2个“黄仁勋”",
+      "share_url": "http://www.blog.pznag.cn/Article/details/664720.sHtML"
+    },
+{
+      "platform": "21家百亿私募，现身31股前十大",
+      "share_url": "http://www.blog.pznag.cn/Article/details/807626.sHtML"
+    },
+{
+      "platform": "偷偷分享 DeepSeek Harness 热榜挖到的 2 个实?插件",
+      "share_url": "http://www.blog.pznag.cn/Article/details/269712.sHtML"
+    },
+{
+      "platform": "房主遇暴力强拆反击致一死被判无罪 律师：系全国首例",
+      "share_url": "http://www.blog.pznag.cn/Article/details/981906.sHtML"
+    },
+{
+      "platform": "DeepSeek Harness 插件：HTML 实时可视化编辑",
+      "share_url": "http://www.blog.pznag.cn/Article/details/237479.sHtML"
+    },
+{
+      "platform": "网络上常见的热门短视频集锦 第三千三百七十五期",
+      "share_url": "http://www.blog.pznag.cn/Article/details/242281.sHtML"
+    },
+{
+      "platform": "小股东连夜视察被资助的便利店",
+      "share_url": "http://www.blog.pznag.cn/Article/details/373150.sHtML"
+    },
+{
+      "platform": "22岁名校女生突然被"绑架"到700公里外 经历59天炼狱",
+      "share_url": "http://www.blog.pznag.cn/Article/details/450415.sHtML"
+    },
+{
+      "platform": "北大数院发布菲尔兹奖得主王虹万字专访，有哪些内容值得关注？",
+      "share_url": "http://www.blog.pznag.cn/Article/details/242094.sHtML"
+    }
+]
+}
+<h2>行业趋势点评</h2><br>
+
+<hr></hr><hr></hr><br>
+<h2>**AI Builders Digest* | 每日06:00自动播报 | 数据来源：</h2><br>
+
+<hr></hr><br>
+<p>*报告生成时间：2026年08月24日05时23分03秒*</p>
+<br>
+<p>*数据来源：新浪财经、公开媒体报道*</p>
